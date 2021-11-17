@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ca" class="container">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C.E.XILVAR</title>
+    <link rel="shortcut icon" href="Imatges/unnamed.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="css.css" rel="stylesheet">
+</head>
+<header>
+    <div class="p-3 mb-2 bg-primary text-white textenmig">
+        <img src="Imatges/unnamed.png" height="40px">
+        C.E.Xilvar
+    </div>
+</header>
+<nav class="col-4">
+    <ul class="nav flex-column">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Inici</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="plantilles.html">Plantilles</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="classificacions.html">Classificacions</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="soci.html">Fes-te Soci</a>
+        </li>
+    </ul>
+</nav>
+
+<body>
+    <div class="tabla col-7">
+        <table class="table table-success table-striped">
+            <thead>
+                <tr class="textenmig">
+                    <th colspan="4">Pagant a Terminis de 25%</th>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <th scope="col">Grada</th>
+                    <th scope="col">Preu Adult</th>
+                    <th scope="col">Preu SUB21/Especial/+65</th>
+                    <th scope="col">Preu Infantil</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Fondo Arbres</th>
+                    <td>35€</td>
+                    <td>20€</td>
+                    <td>20€</td>
+                </tr>
+                <tr>
+                    <th scope="row">Fondo Banquillos</th>
+                    <td>65€</td>
+                    <td>35€</td>
+                    <td>35€</td>
+                </tr>
+                <tr>
+                    <th scope="row">Fondo Fum</th>
+                    <td>100€</td>
+                    <td>65€</td>
+                    <td>45€</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-success table-striped">
+            <thead>
+                <tr class="textenmig">
+                    <th colspan="4">Pagant al 100%</th>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <th scope="col">Grada</th>
+                    <th scope="col">Preu Adult</th>
+                    <th scope="col">Preu SUB21/Especial/+65</th>
+                    <th scope="col">Preu Infantil</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Fondo Arbres</th>
+                    <td>140€</td>
+                    <td>85€</td>
+                    <td>85€</td>
+                </tr>
+                <tr>
+                    <th scope="row">Fondo Banquillos</th>
+                    <td>200€</td>
+                    <td>100€</td>
+                    <td>95€</td>
+                </tr>
+                <tr>
+                    <th scope="row">Fondo Fum</th>
+                    <td>395€</td>
+                    <td>255€</td>
+                    <td>175€</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <form class="row g-3 col-12">
+            <div class="col-4">
+                <label for="validationDefault01" class="form-label">Nom:</label>
+                <input type="text" class="form-control col-12" id="validationDefault01" placeholder="Màxim 15 caracters" maxlength="15" required>
+            </div>
+            <div class="col-4">
+                <label for="validationDefault02" class="form-label">Primer Llinatge:</label>
+                <input type="text" class="form-control col-12" id="validationDefault02" placeholder="Màxim 20 caracters" maxlength="20" required>
+            </div>
+            <div class="col-4">
+                <label for="validationDefault03" class="form-label">Segon Llinatge:</label>
+                <input type="text" class="form-control col-12" id="validationDefault03" placeholder="Màxim 20 caracters" maxlength="15" required>
+            </div>
+            <div class="col-8">
+                <label for="validationDefault04" class="form-label">Correu electrònic:</label>
+                <input type="email" class="form-control col-12" id="validationDefault04" name="email" placeholder="exemple@gmail.com" required>
+            </div>
+            <div class="col-4">
+                <label for="validationDefault05" class="form-label">DNI:</label>
+                <input type="text" class="form-control col-12" id="validationDefault05" placeholder="23456789J" pattern="[0-9]{8}[A-Za-z]{1}" required>
+            </div>
+            <div class="col-8">
+                <label for="validationDefault06" class="form-label">Dirreció:</label>
+                <input type="text" class="form-control col-12" id="validationDefault06" placeholder="C/Joan Marc" required>
+            </div>
+            <div class="col-2">
+                <label for="validationDefault07" class="form-label">Codi Postal:</label>
+                <input type="text" class="form-control col-12" id="validationDefault07" placeholder="07313" pattern="[0-9]{5}" required>
+            </div>
+            <div class="col-2">
+                <label for="validationDefault08" class="form-label">Ciutat:</label>
+                <input type="text" class="form-control col-12" id="validationDefault08" placeholder="Palma" required>
+            </div>
+            <div class="col-4">
+                <label for="validationDefault09" class="form-label">Provincia: </label>
+                <select class="form-select col-12" id="validationDefault09" required>
+                    <option selected disabled value="">Selecciona una opció</option>
+                    <option value="albacete">Albacete</option>
+                    <option value="alicante">Alicante</option>
+                    <option value="almeria">Almeria</option>
+                    <option value="asturias">Asturias</option>
+                    <option value="avila">Ávila</option>
+                    <option value="badajoz">Badajoz</option>
+                    <option value="barcelona">Barcelona</option>
+                    <option value="burgos">Burgos</option>
+                    <option value="caceres">Cáceres</option>
+                    <option value="cadiz">Cádiz</option>
+                    <option value="cantabria">Cantabria</option>
+                    <option value="castellon">Castellón</option>
+                    <option value="real">Ciudad Real</option>
+                    <option value="cordoba">Córdoba</option>
+                    <option value="cuenca">Cuenca</option>
+                    <option value="girona">Girona</option>
+                    <option value="granada">Granada</option>
+                    <option value="guadalajara">Guadalajara</option>
+                    <option value="guipuzkoa">Guipuzkoa</option>
+                    <option value="huelva">Huelva</option>
+                    <option value="huesca">Huesca</option>
+                    <option value="balears">Illes Balears</option>
+                    <option value="jaen">Jaén</option>
+                    <option value="coruña">La Coruña</option>
+                    <option value="rioja">La Rioja</option>
+                    <option value="palmas">Las Palmas</option>
+                    <option value="castilla">Castilla y León</option>
+                    <option value="lleida">Lleida</option>
+                    <option value="lugo">Lugo</option>
+                    <option value="madrid">Madrid</option>
+                    <option value="malaga">Málaga</option>
+                    <option value="murcia">Murcia</option>
+                    <option value="navarra">Navarra</option>
+                    <option value="orense">Orense</option>
+                    <option value="sevilla">Sevilla</option>
+                    <option value="zaragoza">Zaragoza</option>
+                </select>
+            </div>
+            <div class="col-4">
+                <label for="validationDefault10" class="form-label">Data naixament:</label>
+                <input type="date" class="form-control col-12" id="validationDefault10" required>
+            </div>
+            <div class="col-4">
+                <label for="validationDefault11" class="form-label">Teléfon:</label>
+                <input type="text" class="form-control col-12" id="validationDefault11" placeholder="689548712" required>
+            </div>
+            <div class="col-4">
+                <label>Pagament:</label>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+                    <label class="form-check-label" for="validationFormCheck2">Terminis</label>
+                </div>
+                <div class="form-check mb-3">
+                    <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+                    <label class="form-check-label" for="validationFormCheck3">Complet</label>
+                </div>
+            </div>
+            <div class="col-4">
+                <label for="validationDefault12" class="form-label">Grada: </label>
+                <select class="form-select col-12" id="validationDefault12" required>
+                    <option selected disabled value="">Selecciona una opció</option>
+                    <option value="albacete">Fondo Arbres</option>
+                    <option value="alicante">Fondo Banquillos</option>
+                    <option value="almeria">Fondo Fum</option>
+                </select>
+            </div>
+            <div class="col-4">
+                <label for="validationDefault13" class="form-label">Preu: </label>
+                <select class="form-select col-12" id="validationDefault13" required>
+                    <option selected disabled value="">Selecciona una opció</option>
+                    <option value="albacete">Adult</option>
+                    <option value="alicante">SUB21/Especial/+65</option>
+                    <option value="almeria">Infantil</option>
+                </select>
+            </div>
+            <div class="col-1 left">
+                <button class="btn btn-primary" type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+    <footer class="margfoot">
+        <div class="p-3 mb-2 bg-primary text-white textenmig">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2137.7511148122867!2d2.897535492697238!3d39.75738047476548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297c5a45f7b9ab3%3A0x1464629ad99da14c!2sCamp%20De%20Futbol%20Municipal%20De%20Selva!5e0!3m2!1ses!2ses!4v1619780898934!5m2!1ses!2ses" class="mapa"></iframe><br>
+            <div>
+                <p>Pàgina Oficial C.E.XILVAR</p>
+                <p>Telèfono: 975842514</p>
+                <p>Correu: cexilvar@gmail.com</p>
+                <p>Simó Ramos Rayó</p>
+            </div>
+            <div>
+                <a href="https://es-es.facebook.com/people/CE-Xilvar-Selva/100028228110152/" target="_blank"><img src="Imatges/facebook.png"></a>
+                <a href="https://www.instagram.com/cdxilvar/" target="_blank"><img src="Imatges/instagram.png"></a>
+                <a href="https://twitter.com/ce_xilvar?lang=es" target="_blank"><img src="Imatges/twitter.png"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+</html>

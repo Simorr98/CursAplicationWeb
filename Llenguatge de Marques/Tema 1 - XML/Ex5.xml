@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE capitals [
+        <!ELEMENT capitals (capital*)>
+        <!ELEMENT capital (nom, confinada?)>
+        <!ELEMENT nom (#PCDATA)>
+        <!ELEMENT confinada EMPTY>
+        ]>
+
+<capitals>
+    <capital>
+        <nom>Berlín</nom>
+    </capital>
+    <capital>
+        <nom>Londres</nom>
+        <confinada />
+    </capital>
+</capitals>

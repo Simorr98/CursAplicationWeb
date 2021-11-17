@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE fabrica_automobils SYSTEM "fabrica_automobils.dtd">
+<fabrica_automobils>
+    <marca>Fiat</marca>
+    <peces>
+        <peça>
+            <nom>peça1</nom>
+            <dissenyador>Federicu Pi</dissenyador>
+            <any>2010</any>
+            <components>
+                <component>palca</component>
+                <component>grampó</component>
+            </components>
+        </peça>
+        <peça>
+            <nom>peça2</nom>
+            <dissenyador>Marcelinu Paivinu</dissenyador>
+            <any>2010</any>
+            <components>
+                <component>transistor</component>
+            </components>
+        </peça>
+        <peça>
+            <nom>peça3</nom>
+            <dissenyador>Filomeno Garcia</dissenyador>
+            <any>2010</any>
+            <components>
+                <component>junta</component>
+                <component>cabota</component>
+            </components>
+        </peça>
+        <peça>
+            <nom>peça4</nom>
+            <dissenyador>Eustaquio Pons</dissenyador>
+            <any>2009</any>
+            <components>
+                <component>pistó</component>
+            </components>
+        </peça>
+    </peces>
+</fabrica_automobils>

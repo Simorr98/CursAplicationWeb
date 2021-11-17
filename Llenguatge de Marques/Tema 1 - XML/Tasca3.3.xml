@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ordinador [
+        <!ELEMENT ordinador (model_dordinador+)>
+        <!ELEMENT model_dordinador (placa_base|model_processador|disc_dur|memoria_ram|caixes*|descripcio)*>
+        <!ELEMENT placa_base (#PCDATA)>
+        <!ELEMENT model_processador (#PCDATA)>
+        <!ELEMENT disc_dur (#PCDATA)>
+        <!ELEMENT memoria_ram (memoria_GB, frequencia_Mhz)>
+        <!ELEMENT memoria_GB (#PCDATA)>
+        <!ELEMENT frequencia_Mhz (#PCDATA)>
+        <!ELEMENT caixes (#PCDATA)>
+        <!ELEMENT descripcio (#PCDATA)>
+        <!ATTLIST model_dordinador referencia ID #REQUIRED>
+        <!ATTLIST model_dordinador sistema_operatiu (Windows|Ubuntu|Fedora) #IMPLIED>
+        <!ATTLIST placa_base numero_model ID #REQUIRED>
+        <!ATTLIST model_processador num_referencia IDREF #REQUIRED>
+        ]>
+
+<ordinador>
+    <model_dordinador referencia="model1" sistema_operatiu="Windows">
+        <placa_base numero_model="a1">Gigabyte B365M-DS3H</placa_base>
+        <model_processador num_referencia="a1">Intel Core i7-9700F 3GHz</model_processador>
+        <disc_dur> SSD 240GB SATA3, HDD 1TB</disc_dur>
+        <memoria_ram>
+            <memoria_GB>2x8GB</memoria_GB>
+            <frequencia_Mhz>2666Mhz</frequencia_Mhz>
+        </memoria_ram>
+        <caixes>Nox Infinity SIGMA ARGB Cristal Templado USB 3.0, Lian-Li PC-O11D Dynamic XL ROG Edition Torre ATX Blanca</caixes>
+        <descripcio>El nou PcCom Silver està equipat amb un processador i7-9700F, gràfics impressionants gràcies al seu Nvidia GTX 1660 de 6GB GDDR5 i 16 GB de RAM DDR4 que t'oferirà tota la potència necessària per gaudir dels últims jocs Online de més èxit de moment com Fortnite , COD, PUBG, APEX, CSGO ... amb una relació qualitat / preu inigualable.</descripcio>
+    </model_dordinador>
+
+    <model_dordinador referencia="model2" sistema_operatiu="Ubuntu">
+        <placa_base numero_model="a2">ASUS B450M</placa_base>
+        <model_processador num_referencia="a2">AMD Ryzen 5 3400G 3.7GHZ</model_processador>
+        <disc_dur>SSD 480GB SATA3, 1TB HDD SATA3</disc_dur>
+        <caixes>Nox LITE010 USB 3.0 + Fuente de Alimentación 500W, Silverstone PS15 Torre Micro ATX Cristal Templado Negra</caixes>
+        <descripcio>Pensat per a un ús general a la llar oa l'oficina, el PcCom Basic AMD Ryzen es presenta com un equip equilibrat en què el seu processador AMD Ryzen 5 3400G a 3.7GHZ (4 nuclis / 8 subprocessos per a processament, amb potents gràfics Radeon? RX Vega 11 integrats), els seus 8GB de RAM DDR4 2400 i el ràpid disc SSD de 480GB SATA3 permeten treballar de forma folgada en molt diferents tasques, cosa que el fa ideal per a entorns domèstics o d'oficina.</descripcio>
+    </model_dordinador>
+
+    <model_dordinador referencia="model3" sistema_operatiu="Fedora">
+        <placa_base numero_model="a3">MSI A320M-A PRO</placa_base>
+        <model_processador num_referencia="a3">AMD Ryzen 5 3400G 3.7GHz</model_processador>
+        <disc_dur>1TB SATA3, SSD 240GB</disc_dur>
+        <memoria_ram>
+            <memoria_GB>8GB DDR4</memoria_GB>
+            <frequencia_Mhz>2666 Mhz</frequencia_Mhz>
+        </memoria_ram>
+        <caixes>Tempest Spectra RGB USB 3.0 con Ventana Blanco, BitFenix Nova TG Semitorre ATX Cristal Templado Negra</caixes>
+        <descripcio>Entra al món Gaming de el PC amb aquest equip de relació qualitat / preu inigualable. Amb aquest equip gaudiràs dels jocs Online de més èxit de moment com LOL, Fortnite, Rocket League, CSGO, Overwatch ... amb un rendiment excel·lent gràcies al seu processador AMD Ryzen 5 3400G amb gràfics Radeon ™ Vega 11 Graphics d'11 nuclis, seus 8GB de RAM DDR4 i el seu ràpid SSD de 240GB</descripcio>
+    </model_dordinador>
+
+    <model_dordinador referencia="model4">
+        <placa_base numero_model="a4">MSI B450M PRO-VDH Max</placa_base>
+        <model_processador num_referencia="a4">AMD Ryzen 7 2700X 3.7Ghz</model_processador>
+        <memoria_ram>
+            <memoria_GB>2x8GB</memoria_GB>
+            <frequencia_Mhz>2666 Mhz</frequencia_Mhz>
+        </memoria_ram>
+        <descripcio>AMD Ryzen amb el nou PCCOM Silver. El seu processador AMD Ryzen 7 2700X, 16 GB de RAM DDR4 i el seu potent targeta gràfica GTX 1660 t'oferiran tota la potència necessària per gaudir dels últims jocs de l'mercat.</descripcio>
+    </model_dordinador>
+</ordinador>

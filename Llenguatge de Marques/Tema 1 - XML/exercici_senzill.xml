@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coleccio_harry_potter [
+        <!ELEMENT coleccio_harry_potter (llibre+)>
+        <!ELEMENT llibre EMPTY>
+        <!ATTLIST coleccio_harry_potter editorial CDATA #REQUIRED>
+        <!ATTLIST coleccio_harry_potter format (tapa_dura|tapa_blana) #IMPLIED>
+        <!ATTLIST llibre isbn ID #IMPLIED nom CDATA #REQUIRED data CDATA #IMPLIED precuela IDREF #IMPLIED>
+        ]>
+<coleccio_harry_potter editorial="Gigamesh" format="tapa_dura">
+    <llibre isbn="abc123" nom="HP i la pedra filosoval" data="2000"/>
+    <llibre isbn="abc124" nom="HP i la cambra secreta"/>
+    <llibre nom="HP i en pep gonella" data="2004"/>
+    <llibre nom="HP i es confinament de hogwarts"/>
+    <llibre isbn="abc127" nom="En HP aprèn XML" precuela="abc123"/>
+</coleccio_harry_potter>

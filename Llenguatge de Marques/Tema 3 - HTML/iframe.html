@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ca" class="fondo">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .fondo{
+            background-color: lightgrey;
+        }    
+                
+    
+        .left{
+            float: left;  
+        }    
+       
+        .right{
+            float: right;  
+        }
+        .marges{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        h1{
+            text-align: center;
+            font-weight: 800;
+        }
+        
+        .bordes{
+            border: 2px solid black;
+            border-radius: 15px; 
+            box-shadow: 2px 2px 2px 2px blue; 
+        }
+        
+        .separacio{
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+        
+        .dimen{
+            height: 850px;
+            width: 75%;
+        }
+        
+        .fondoblanc{
+            background-color: white;
+        }
+            
+    </style>
+    </head>
+    <body>
+        <div class="marges bordes row fondoblanc">
+            <h1 class="h1">Les meves webs</h1>
+            <iframe src="http://www.iesmanacor.cat/" name="iframe"  class="right separacio bordes dimen"></iframe>
+            <div><button class="col-2 bordes separacio">    <a href="taules.html" target="iframe">Ranking llenguatges</a></button></div>
+            <div><button class="col-2 bordes separacio"><a href="divs.html" target="iframe">Exercici DIV</a></button></div>
+            <div><button class="col-2 bordes separacio"><a href="divsforms.html" target="iframe">Div + Form</a></button></div>
+            
+            
+        </div>
+    </body>
+</html>

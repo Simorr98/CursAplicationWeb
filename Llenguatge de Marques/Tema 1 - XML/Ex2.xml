@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cromos [
+        <!ELEMENT cromos (cromo*)>
+        <!ELEMENT cromo (#PCDATA)>
+        ]>
+
+<cromos>
+    <cromo>Messi</cromo>
+    <cromo>Pinto</cromo>
+    <cromo>R.Ramos</cromo>
+</cromos>

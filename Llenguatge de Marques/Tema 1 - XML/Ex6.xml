@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reisEspanyols [
+        <!ELEMENT reisEspanyols (rei|reina)*>
+        <!ELEMENT rei (nom, pare, mare)>
+        <!ELEMENT reina (nom, pare, mare)>
+        <!ELEMENT nom (#PCDATA)>
+        <!ELEMENT pare (#PCDATA)>
+        <!ELEMENT mare (#PCDATA)>
+        ]>
+
+<reisEspanyols>
+    <rei>
+        <nom>Felipe III</nom>
+        <pare>Felipe II</pare>
+        <mare>Ana de Austria</mare>
+    </rei>
+    <reina>
+        <nom>Juana la Loca</nom>
+        <pare>Fernando el Católico</pare>
+        <mare>Isabel la Católica</mare>
+    </reina>
+    <rei>
+        <nom>Carlos I</nom>
+        <pare>Felipe el Hermoso</pare>
+        <mare>Juan la Loca</mare>
+    </rei>
+</reisEspanyols>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE musics [
+        <!ELEMENT musics (music*)>
+        <!ELEMENT music ((nom | aka), dataNaixement)>
+        <!ELEMENT nom (#PCDATA)>
+        <!ELEMENT aka (#PCDATA)>
+        <!ELEMENT dataNaixement (#PCDATA)>
+        ]>
+
+<musics>
+    <music>
+        <nom>Antonio Vivaldi</nom>
+        <dataNaixement>4 de març de 1678</dataNaixement>
+    </music>
+    <music>
+        <aka>El viejo peluca</aka>
+        <dataNaixement>21 de febrer de 1685</dataNaixement>
+    </music>
+</musics>

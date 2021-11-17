@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Divs 2</title>
+
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body onload="changeRange()">
+
+<header class="row header-div">
+
+    <div class="col-6">Titol pàgina</div>
+
+    <div class="col-1">
+        <button type="button" class="boton">Menu Item</button>
+    </div>
+    <div class="col-1">
+        <button type="button" class="boton">Menu Item</button>
+    </div>
+    <div class="col-1">
+        <button type="button" class="boton">Menu Item</button>
+    </div>
+
+</header>
+
+<br><br><br><br>
+
+<hr class="hrline" width="100%">
+<br><br>
+
+<div id="div-1">
+    <h2>Seccio principal de la pagina</h2>
+    <br>
+    <div id="seccio-1" class="col-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+    <div id="seccio-2" class="col-5">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</div>
+    <div id="formulari"><h3>Formulari</h3></div>
+    <div id="display" class="divespecial">
+        <p><b>Errors de validació:</b></p>
+        <p id="dnii"></p>
+        <p id="emaiil"></p>
+        <p id="namee"></p>
+        <p id="surnamee"></p>
+        <p id="secsurnamee"></p>
+    </div>
+    <form method="post">
+
+        <div class="col-4">
+            <label for="dni">DNI:</label><br>
+            <input type="text" id="dni" name="dni" placeholder="123456789A" class="col-12">
+        </div>
+
+        <div class="col-8">
+            <label for="correu">Correu electrònic</label><br>
+            <input type="email" id="correu" name="correu" placeholder="example@example.com" class="col-12">
+        </div>
+
+        <div class="col-4">
+            <label for="firstname">Nom:</label><br>
+            <input type="text" id="firstname" name="firstname" placeholder="Bruja" class="col-12">
+        </div>
+
+        <div class="col-4">
+            <label for="llinatge">Llinatge 1:</label><br>
+            <input type="text" id="llinatge" name="llinatge" placeholder="Escarlata" class="col-12">
+        </div>
+
+        <div class="col-4">
+            <label for="llinatge2">Llinatge 2:</label><br>
+            <input type="text" id="llinatge2" name="llinatge2" placeholder="Vision" class="col-12">
+        </div>
+
+        <div class="col-4">
+
+            <label> Gènere: </label><br>
+
+            <input type="radio" id="home" name="genere" value="home">
+            <label for="home">Home</label>
+
+            <input type="radio" id="dona" name="genere" value="dona">
+            <label for="dona">Dona</label>
+
+            <input type="radio" id="altres" name="genere" value="altres">
+            <label for="altres">Altres</label>
+        </div>
+
+        <div class="col-8">
+            <label for="data">Data de Naixament:</label><br>
+            <input id="data" name="data" type="date" value="data" class="col-6">
+        </div>
+
+        <div class="col-4">
+
+            <label for="nivel">Nivell d'estudis:</label><br>
+            <select name="nivel" id="nivel" class="col-12">
+                <option value="ESO">ESO</option>
+                <option value="Batx">Batxillerat</option>
+                <option value="CFGM">Cicle formatiu de grau mitja</option>
+                <option value="CFGS">Cicle formatiu de grau superior</option>
+                <option value="Uni">Universitat</option>
+            </select>
+
+        </div>
+        <div class="col-8 texte">
+            <label>Aficions</label><br>
+
+            <input type="checkBox" id="Surf" name="Surf">
+            <label for="Surf">Surf</label>
+
+            <input type="checkBox"  id="Escacs" name="Escacs">
+            <label for="Escacs">Escacs</label>
+
+            <input type="checkBox"  id="Basket" name="Basket">
+            <label for="Basket">Basket</label>
+
+            <input type="checkBox"  id="E-Sports" name="E-Sports">
+            <label for="E-Sports">E-Sports</label>
+
+            <input type="checkBox"  id="Dormir" name="Dormir">
+            <label for="Dormir">Dormir</label>
+
+            <input type="checkBox"  id="Llegir" name="Llegir">
+            <label for="Llegir">Llegir</label>
+
+            <input type="checkBox"  id="Dibuixar" name="Dibuixar">
+            <label for="Dibuixar">Dibuixar</label>
+
+            <input type="checkBox"  id="Musica" name="Musica">
+            <label for="Musica">Musica</label>
+
+        </div>
+        <div class="col-12">
+            <label id="valuerange" for="range">Probabilitats d'aprovar 0 de 100:</label><br>
+            <input type="range" id="range" value="50" name="vol" min="0" max="100" class="col-12" onInput="changeRange()">
+            <br><br>
+            <div id="divprob" class="divprob">
+                <p id="num"></p>
+            </div>
+        </div>
+
+    </form>
+    <div class="col-2">
+        <button onClick="allChecksInOne()">Valida</button>
+    </div>
+</div>
+</body>
+
+<script src="checks.js"></script>
+
+<script type="text/javascript">
+    function changeRange() {
+        var a = document.getElementById("range").value;
+        var message = "Probabilitats d'aprovar " + a + " de 100:"
+        var obj = document.getElementById("divprob");
+
+        var opacidad = a / 100;
+        obj.style.opacity = opacidad;
+
+        document.getElementById("valuerange").innerHTML = message;
+        document.getElementById("num").innerHTML = a;
+    }
+</script>
+
+</html>

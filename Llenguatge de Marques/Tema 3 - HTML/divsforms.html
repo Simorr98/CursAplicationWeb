@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ca" class="fondo">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .fondo{
+            background-color: lightgrey;
+        }    
+                
+
+        .right{
+            float: right;
+        }    
+    
+        .left{
+            float: left;  
+        }    
+       
+        .center{
+            text-align: center;    
+        }
+        
+        [class*="col-"] {
+            padding: 15px;
+        }
+    
+        .sombra{
+            color: black;
+            box-shadow: 2px 2px 2px 2px mediumpurple;
+        }   
+    
+        .marco{
+            border: 1px solid mediumpurple;
+            border-radius: 22px;
+            margin: 2px; 
+            text-align: center;
+        } 
+        
+        .marge{
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid mediumpurple;
+            border-radius: 15px;
+            padding: 30px 15px;
+            margin-top: 50px;
+        } 
+    
+        .marg{
+            border-radius: 15px;
+            padding: 5px;
+            margin: 5px;
+            border: 1px solid mediumpurple;
+        }     
+        
+        .text{
+            font-weight: 900;
+            font-size: 30px;
+        }    
+        
+        .jus{
+            text-align: justify;
+            padding: 80px 5px 30px 5px;
+        }   
+        
+        .genere{
+            font-size: 20px;    
+        } 
+        
+        .sep{
+            padding: 0px 82px 0px 0px;
+        }
+        
+        
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+    </style>
+    </head>
+    <header>
+        <div class="row">
+            <div class="col-6 left center text">Formulari</div>
+            <button class="col-1 left center marg">Menu 1</button>
+            <button class="col-1 left center marg">Menu 2</button>
+            <button class="col-1 left center marg">Menu 3</button>
+        </div>
+        <hr class="sombra">
+    </header>    
+    <body>
+        <div class="col-10 marge row sombra">
+            <div class="text">Dades Personals</div>
+            <div class="col-6 left jus">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur varius tellus, sit amet maximus magna pharetra vitae. Fusce sodales odio tellus, non commodo urna pharetra in. Etiam non sollicitudin velit. Mauris suscipit cursus tortor sed euismod. Nunc pulvinar ligula id orci hendrerit, sed bibendum augue viverra. Aliquam erat volutpat. Nam cursus, elit a imperdiet euismod, mauris tellus tempus nunc, ut efficitur justo magna vel eros. Aliquam feugiat nibh eget euismod gravida.</div>
+            
+            <div class="col-6 left jus">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur varius tellus, sit amet maximus magna pharetra vitae. Fusce sodales odio tellus, non commodo urna pharetra in. Etiam non sollicitudin velit. Mauris suscipit cursus tortor sed euismod. Nunc pulvinar ligula id orci hendrerit, sed bibendum augue viverra. Aliquam erat volutpat. Nam cursus, elit a imperdiet euismod, mauris tellus tempus nunc, ut efficitur justo magna vel eros. Aliquam feugiat nibh eget euismod gravida.</div>
+            <div class="text jus">Formulari</div>
+            <form id="form">
+                <div class="col-4 left">
+                    <label for="dni">DNI:</label><br>
+                    <input type="text" id="dni" name="dni" placeholder="23456789J" class="col-12">
+                </div>
+                <div class="col-8 left">
+                    <label for="email">Correu electrònic:</label><br>
+                    <input type="email" id="email" name="email" placeholder="exemple@gmail.com" class="col-12">   
+                </div>
+                <div class="col-4 left">
+                    <label for="nom">Nom:</label><br>
+                    <input type="text" id="nom" name="nom" placeholder="Maria" class="col-12">
+                </div>
+                <div class="col-4 left">
+                    <label for="llin1">Llinatge 1:</label><br>
+                    <input type="text" id="llin1" name="llin1" placeholder="Rivero" class="col-12">
+                </div>
+                <div class="col-4 left">
+                    <label for="llin2">Llinatge 2:</label><br>
+                    <input type="text" id="llin2" name="llin2" placeholder="Ramos" class="col-12">
+                </div>
+                <div class="col-4 left">
+                    <label>Gènere:</label><br>
+                    <input type="radio" id="home" name="genere" value="male">
+                    <label for="home" class="genere">Home</label>
+                    <input type="radio" id="dona" name="genere" value="female">
+                    <label for="dona" class="genere">Dona</label>
+                    <input type="radio" id="altres" name="genere" value="other">
+                    <label for="altres" class="genere">Altres</label>
+                </div>
+                <div class="col-8 left">
+                    <label for="data">Data naixament:</label><br>
+                    <input type="date" id="data" name="data" class="col-6">
+                </div>
+                <div class="col-4 left">
+                    <label for="estudis">Nivell d'estudis: </label><br>
+                    <select id="estudis" name="estudis" class="col-12">
+                        <option value="ESO">Educació Secundaria Obligatoria</option>
+                        <option value="BATX">Batxillerat</option>
+                        <option value="CFGM">Cicle formatiu de grau mitja</option>
+                        <option value="CFGS">Cicle formatiu de grau superior</option>
+                        <option value="UIB">Universitat</option>
+                    </select>
+                </div>
+                <div class="col-8 left">
+                    <div class="left">
+                        <label for="aficions">Aficions:</label>
+                    </div><br>    
+                    <div class="left sep genere">
+                        <input  type="checkBox" id="surf" name="surf">
+                        <label for="surf">Surf</label>
+                        
+                    </div>
+                    <div class="left sep genere">
+                        <input  type="checkBox" id="esc" name="esc">
+                        <label for="esc">Escacs</label>
+                        
+                    </div>
+                    <div class="left sep genere">
+                        <input  type="checkBox" id="bask" name="bask">
+                        <label for="bask">Basket</label>
+                        
+                    </div>
+                    <div class="left sep genere">
+                        <input  type="checkBox" id="esp" name="esp">
+                        <label for="esp">E-sports</label>
+                        
+                    </div>
+                    <div class="left sep genere">
+                        <input  type="checkBox" id="dorm" name="dorm">
+                        <label for="dorm">Dormir</label>
+                        
+                    </div>
+                    <div class="left sep genere">
+                        <input  type="checkBox" id="lleg" name="lleg">
+                        <label for="lleg">Llegir</label>
+                        
+                    </div>
+                    <div class="left sep genere">    
+                        <input  type="checkBox" id="dib" name="dib">
+                        <label for="dib">Dibuixar</label>
+                    </div>
+                    <div class="left sep genere">    
+                        <input  type="checkBox" id="mus" name="mus">
+                        <label for="mus">Mùsica</label>
+                    </div>    
+                </div>
+                <div class="col-12 left">
+                    <label for="range">Probabilitat d'aprovar 0 - 100:</label><br>
+                    <input type="range" id="range" name="vol" min="0" max="100" class="col-12">
+                </div>
+                <div class="col-1 left">
+                    <button onclick="" class="col-12 marg">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

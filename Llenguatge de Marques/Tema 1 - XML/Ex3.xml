@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE atletes [
+        <!ELEMENT atletes (altleta*)>
+        <!ELEMENT altleta (nom, naixement)>
+        <!ELEMENT nom (#PCDATA)>
+        <!ELEMENT naixement (#PCDATA)>
+        ]>
+
+<atletes>
+    <altleta>
+        <nom>Fermín Cacho</nom>
+        <naixement>28 de març de 1936</naixement>
+    </altleta>
+    <altleta>
+        <nom>Milan Kundera</nom>
+        <naixement>1 de febrer de 1929</naixement>
+    </altleta>
+</atletes>

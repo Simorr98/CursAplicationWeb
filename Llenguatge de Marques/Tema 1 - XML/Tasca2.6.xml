@@ -1,0 +1,46 @@
+<Personatges>
+    <Nom>Ezreal</Nom>
+    <Rol>Tirador</Rol>
+    <Dificultat>Moderada</Dificultat>
+    <Habilitats>
+        <Passiva>Fuerza de Hechizo Naciente, la velocidad de ataque de Ezreal aumenta prograsivamente cada vez que acierta un hechizo, hasta un màximo de 5 acumulaciones</Passiva>
+        <Q>Disparo Místico, Ezreal lanza un rayo de energía que reduce brevemente todos sus enfriamientos si alcanza a alguna unidad enemiga</Q>
+        <W>Flujo de Esencia, Ezreal dispara un orbe que se adhiere al primer campeón u objetivo alcanzado. Si Ezreal golpea a un enemigo con el orbe, este explota e inflige daño</W>
+        <E>Alteración Arcana, Ezreal se teleporta a una ubicación cercana a un objetivo y dispara un rayo certero que golpea a la unidad enemiga más cercana. Dará prioridad a los enemigos marcados con Flujo de esencia</E>
+        <R>Andanada Certera, Ezreal se prepara antes de disparar una potente andanada de energía que inflige mucho daño a cada unidad que atraviese (el daño es menor contra súbditos y monstruos no épicos)</R>
+    </Habilitats>
+    <Skins>Ezreal de Nottingham, Ezreal Delantero, Ezreal Helado, Ezreal Explorador, Ezreal Pulso de Fuego, Ezreal TPA, Ezreal Galante, Ezreal As de Picas, Ezreal de Recreativa, Ezreal Guardián de las Estrellas, Ezreal SSG, Ezreal Guardian de los Pijamas, Ezreal Academia de Combate, Ezreal Psyops, Ezreal Psyops(Edición de Prestigio)</Skins>
+    <Nom>Aphelios</Nom>
+    <Rol>Tirador</Rol>
+    <Dificultat>Alta</Dificultat>
+    <Habilitats>
+        <Passiva>El Asesino y la Vidente, Aphelios empuña cinco armas de los Lunari creadas por su hermana Alune. Tiene acceso a dos a la vez, una como arma principal y otra como secundaria. Cada arma tiene su propio ataque básico y su propia habilidad activa. Los ataques y las habilidades consumen la munición del arma. Cuando se queda sin munición, Aphelios descarta el arma y Alune invoca la siguiente de las 5 </Passiva>
+        <Q>Habilidades de las Armas, Aphelios cuenta con 5 habilidades activas diferentes, en función del arma principal que tenga equipada: Calibrum (rifle): Disparo de largo alcance que marca a su objetivo para realizar un ataque consecutivo también a largo alcance. Severum (revólver guadaña): Corre mientras ataca a los enemigos cercanos con ambas armas. Gravitum (cañón): Inmoviliza a todos los enemigos ralentizados por esta arma. Infernum (lanzallamas): Impacta contra los enemigos en un arco y ataca con el arma secundaria. Crescendum (chakram): Despliega un centinela que dispara con el arma secundaria</Q>
+        <W>Fase, Aphelios cambia su arma principal por el arma secundaria, lo que reemplaza sus ataques básicos y su habilidad activa.</W>
+        <E>Sistema de Cola de Armas, Aphelios no tiene tercera habilidad. Esta ranura muestra la siguiente arma que Alune le dará. Al comienzo, el orden de las armas es fijo, pero puede cambiar durante la partida: cuando un arma se queda sin munición, pasa a ser la última</E>
+        <R>Vigilia Lunar, Dispara un torrente de luz lunar concentrado que explota al golpear a campeones enemigos. Aplica el efecto único del arma principal de Aphelios</R>
+    </Habilitats>
+    <Skins>Aphelios Heraldo del Caos</Skins>
+    <Nom>Kayne</Nom>
+    <Rol>Luchador</Rol>
+    <Dificultat>Alta</Dificultat>
+    <Habilitats>
+        <Passiva>La Guadaña de los Oscuros, Kayn es portador de un arma muy antigua y lucha contra Rhaast, el oscuro que alberga, en un tira y afloja por hacerse con el control. O Rhaast el oscuro triunfará o Kayn conseguirá dominarlo y se convertirá en el Asesino de las sombras. Oscuro: Se cura un porcentaje del daño de hechizos infligido a campeones. Asesino de las sombras: Inflige daño adicional durante los primeros segundos en combate contra campeones enemigos</Passiva>
+        <Q>Corte de Guadaña, Kayn se desliza y luego ataca. Ambas acciones infligen daño</Q>
+        <W>GOlpe de Hoja, Kayn daña y ralentiza a los objetivos en una línea</W>
+        <E>Pasos de Sombra, Kayn puede atravesar obstáculos de terreno</E>
+        <R>Invasión Sombría, Kayn se oculta en el cuerpo de un enemigo e inflige un daño enorme al abandonarlo</R>
+    </Habilitats>
+    <Skins>Kayn Cazador de Almas, Kayn de Odisea</Skins>
+    <Nom>Lillia</Nom>
+    <Rol>Luchador</Rol>
+    <Dificultat>Alta</Dificultat>
+    <Habilitats>
+        <Passiva>Rama de los Sueños, Golpear a un campeón o a un monstruo con una habilidad le infligirá daño por vida máxima adicional a lo largo del tiempo</Passiva>
+        <Q>Golpes Florecientes, De forma pasiva, Lillia obtiene velocidad de movimiento acumulable al golpear a enemigos con sus hechizos. Puede activar la habilidad para infligir daño mágico a los enemigos cercanos e infligir daño verdadero adicional en el borde</Q>
+        <W>¡CUIDADO!¡YIP!, Lillia inflige daño en una zona cercana. El daño aumenta en el centro</W>
+        <E>Semilla Rodante, Lillia lanza una semilla que inflige daño y ralentiza a aquellos sobre los que aterriza. Si no impacta contra nada, seguirá rodando hasta impactar contra un muro o un objetivo</E>
+        <R>Nana Rítmica, Lillia provoca que todos los enemigos afectados por Polvo de los sueños queden aletargados hasta que se quedan dormidos. Esos enemigos reciben daño adicional al ser despertados a la fuerza</R>
+    </Habilitats>
+    <Skins>Lillia Florecer Espiritual</Skins>
+</Personatges>

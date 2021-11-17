@@ -1,0 +1,23 @@
+<Oficina>
+    <Conversacio>
+        <Missatge>325</Missatge>
+        <De>CapMagatzem</De>
+        <Per>Operari01</Per>
+        <Assumpte>Control d'estocs</Assumpte>
+        <Cos>Hola, Et necessito al magatzem per fer el control d'estocs</Cos>
+    </Conversacio>
+    <Conversacio>
+        <Missatge>326</Missatge>
+        <De>Operari01</De>
+        <Per>CapMagatzem</Per>
+        <Assumpte>RE: Control d'estocs</Assumpte>
+        <Cos>Ara hi vaig</Cos>
+    </Conversacio>
+    <Conversacio>
+        <Missatge>327</Missatge>
+        <De>CapMagatzem</De>
+        <Per>Operari01</Per>
+        <Assumpte>RE: RE: Control d'estocs</Assumpte>
+        <Cos>Gràcies</Cos>
+    </Conversacio>
+</Oficina>

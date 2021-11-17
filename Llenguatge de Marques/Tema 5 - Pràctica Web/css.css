@@ -1,0 +1,168 @@
+.pad {
+    padding: 10px;
+}
+
+.textenmig {
+    text-align: center;
+}
+
+nav {
+    float: left;
+}
+
+
+.fotos {
+    width: 40%;
+    float: left;
+}
+
+.bordes {
+    border: 4px solid #0d6efd;
+    border-radius: 15px;
+    background-color: #0d6efd;
+    color: white;
+}
+
+footer {
+    float: left;
+    width: 100%
+}
+
+iframe {
+    width: 59%;
+    height: 307px;
+}
+
+.mapa {
+    height: 100px;
+    width: 15%;
+}
+
+.camp {
+    float: right;
+    height: 445px;
+    margin-bottom: 10px;
+}
+
+.video {
+    height: 307px;
+    width: 90%;
+}
+
+.fotosplantilles {
+    float: right;
+}
+
+.margin {
+    margin: 10px;
+}
+
+.marcoplantilles {
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.bordeimatge {
+    border: 4px solid #0d6efd;
+    border-radius: 15px;
+}
+
+.color {
+    color: white;
+}
+
+.wiframe {
+    float: right;
+    height: 800px;
+}
+
+.margfoot {
+    margin-top: 15px;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+.framexilvar {
+    height: 480px;
+    margin-top: 15px;
+}
+
+.tabla {
+    float: right;
+    width: 70%;
+    margin: 10px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    padding: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.left {
+    float: left;
+}
+
+.margevideo {
+    margin-bottom: 20px;
+}

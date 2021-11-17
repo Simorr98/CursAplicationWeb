@@ -1,0 +1,9 @@
+<!ELEMENT fabrica_automobils (marca,peces)>
+        <!ELEMENT marca (#PCDATA)>
+        <!ELEMENT peces (peça+)>
+        <!ELEMENT peça (nom, dissenyador,any,components)>
+        <!ELEMENT nom (#PCDATA)>
+        <!ELEMENT dissenyador (#PCDATA)>
+        <!ELEMENT any (#PCDATA)>
+        <!ELEMENT components (component+)>
+        <!ELEMENT component (#PCDATA)>

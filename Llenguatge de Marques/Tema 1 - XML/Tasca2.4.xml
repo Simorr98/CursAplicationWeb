@@ -1,0 +1,40 @@
+<Empresa>
+    <CEO>Miquel Rius</CEO>
+    <Subdirector>Estafania Jones</Subdirector>
+    <Departaments>
+        <Departament planta="45">
+        Compatibilitat
+        <CapDept despatx="14A">Bárbara Folk</CapDept>
+        <Empleats>
+            <Empleat>
+                Pere Vives
+                <Sou>24000</Sou>
+            </Empleat>
+            <Empleat>
+                JC Rodriguez
+                <Sou>56000</Sou>
+            </Empleat>
+        </Empleats>
+        <Departament>
+        <Departament planta="57">
+            RRHH
+            <CapDept despatx="26C">FrodoBolsón</CapDept>
+            <Empleats>
+                <Empleat>
+                    Jaume Munar
+                    <Sou>20000</Sou>
+                </Empleat>
+                <Empleat>
+                    Rosa Lladó
+                    <Sou>32000</Sou>
+                </Empleat>
+                <Empleat>
+                    Pau Gayà
+                    <Sou>45000</Sou>
+                </Empleat>
+            </Empleats>
+        </Departament>
+        </Departament>
+        </Departament>
+    </Departaments>
+</Empresa>
